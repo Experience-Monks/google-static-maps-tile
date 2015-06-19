@@ -1,0 +1,33 @@
+{
+  "name": "google-static-maps-tile",
+  "version": "1.0.0",
+  "description": "Given a center map cordinate Google Static Maps API will be used to load tiles of a map in a given area.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {
+    "google-maps-image-api-url": "^1.0.1",
+    "mercator-projection": "0.0.2",
+    "merge": "^1.2.0",
+    "rate-limited-image-loader": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "google,maps,static,tiles,loader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/google-static-maps-tile.git"
+  },
+  "homepage": "https://github.com/Jam3/google-static-maps-tile",
+  "bugs": {
+    "url": "https://github.com/Jam3/google-static-maps-tile/issues"
+  }
+}
